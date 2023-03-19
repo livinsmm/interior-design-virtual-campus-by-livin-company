@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'IDVC by Livin Company';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved. @livincompany';
+    : '.';
 
   return {
     name,
