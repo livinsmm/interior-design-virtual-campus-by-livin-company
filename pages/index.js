@@ -33,6 +33,7 @@ export default function Index({ posts, globalData }) {
                       {post.data.date}
                     </p>
                   )}
+<a href="https://nextjs.org">Next.js!</a>
                   <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
                   {post.data.description && (
                     <p className="mt-3 text-lg opacity-60">
